@@ -14,11 +14,11 @@
 		// 9 - promos mulher
 		// 10 - promos homem
 		
-		// 11 - destaques mulher
-		// 12 - destaques homem
+		// 11 - top mulher
+		// 12 - top homem
 		
-		// 13 - coleções mulher
-		// 14 - coleções homem
+		// 13 - new mulher
+		// 14 - new homem
 		
 		// 15 - tudo mulher
 		// 16 - tudo homem

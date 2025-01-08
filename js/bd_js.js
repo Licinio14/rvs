@@ -90,31 +90,31 @@ function BDcategorias(id){
         //promos
         //women
         case 9:
-            
+            return [3,10,15,19];
         break;
         //men
         case 10:
-
+            return [24,30,35,38];
         break;
 
-        //destaques
+        //top
         //mulher
         case 11:
-
+            return [3,10,15,19];
         break;
         //men
         case 12:
-
+            return [22,28,33,36];
         break;
 
-        //colecoes
+        //new
         //women
         case 13:
-
+            return [2,9,14,18];
         break;
         //men
         case 14:
-
+            return [23,29,34,37];
         break;
 
         //todos
