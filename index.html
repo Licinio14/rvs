@@ -12,13 +12,58 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
-<body>
+<body class="bodyindex">
+    <!-- menu -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Women</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Men</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Clothy Stories</a>
+                </li>
+                <!-- para usar nas paginas em que o utilizador esta a navegar fora da home -->
+                <!-- <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li> -->
+                </ul>
+            </div>
+
+            <!-- titulo do menu -->
+            <div class="col-4">
+                <h6 class="menutitulo">Clothy</h6>
+            </div>
+
+            <!-- icon do carrinho do menu -->
+            <div class="col-1 text-center">
+                <img src="">
+            </div>
+
+            <!-- icon para conta do utilizador -->
+            <div class="col-1 text-center">
+                <h6 class="menutitulo">Clothy</h6>
+            </div>
+        </div>         
+      </nav>
+
+
     
-    <input type="button" value="Testar" onclick="executar()">
 
     <!-- Bootstrap script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
+    <!-- scripts de js -->
     <script src="js/script.js"></script>
     <script src="js/bd_js.js"></script>
 </body>
