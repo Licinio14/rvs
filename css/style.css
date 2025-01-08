@@ -11,3 +11,16 @@
     max-width: 30px;
     max-height: 30px;
 }
+
+.logo {
+    position: absolute; /* posicione a imagem absolutamente */
+    top: 1%; /* ajuste a posição vertical da imagem para o topo */
+    left: 0.5%; /* centralize a imagem horizontalmente */
+    width: 150px; /* ajuste o tamanho da imagem */
+    height: 150px; /* ajuste o tamanho da imagem */
+    transform: rotate(-25deg); /* rotaciona a imagem 45 graus */
+  }
+
+  .nav-advanced {
+    margin-left: 145px; /* ajuste o espaçamento para a esquerda */
+  }
