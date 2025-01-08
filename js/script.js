@@ -24,7 +24,8 @@
 		// 16 - tudo homem
 	
 
-function executar(){
-	let produtos = BDquery(1);
-	console.log(produtos)
+function Filtrar(){
+	let produtos = BDprodutos();
+	let categoria = BDcategorias(8);
+	console.log(categoria)
 }

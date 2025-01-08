@@ -43,7 +43,7 @@ function BDprodutos(){
         { id: 40, nome: "SMART LEATHER SHOES", preco: 39.99, descricao: "Classic derby shoes. Four-eyelet facing. Contrast sole. Round toe.", promo: 0, src: "img/Produtos/2 - Men/4 - Shoes/40.jpg" }
       ];
 
-    return pessoas;
+    return produtos;
 
 }
 
