@@ -14,6 +14,7 @@
 
 .logo {
     position: absolute; /* posicione a imagem absolutamente */
+    pointer-events: none; /* permite que os eventos de clique sejam propagados para a navbar */
     top: 1%; /* ajuste a posição vertical da imagem para o topo */
     left: 0.5%; /* centralize a imagem horizontalmente */
     width: 150px; /* ajuste o tamanho da imagem */
@@ -24,3 +25,63 @@
   .nav-advanced {
     margin-left: 145px; /* ajuste o espaçamento para a esquerda */
   }
+
+  .socials-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 0;
+  }
+
+  .socials-icon {
+    font-size: 20px;
+    color: white;
+  }
+
+.carousel {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.carousel-inner {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* mudado de cover para contain */
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.carousel-inner img.active {
+  opacity: 1;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
