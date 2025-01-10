@@ -62,21 +62,10 @@ function PreencherMulheres(){
 		// descrição
 		var card = document.createElement('p')  
         card.className = `card-text`
-		card.textContent = produtos[i].descricao
+		card.textContent = produtos[i].preco
 		temp = document.getElementById(`card-body${i}`);
         temp.appendChild(card)
-		// div footer
-		var card = document.createElement('div')  
-        card.className = `card-footer`
-		card.id = `card-footer${i}`
-		temp = document.getElementById(`card${i}`);
-        temp.appendChild(card)
-		// div footer
-		var card = document.createElement('small')  
-        card.className = `text-body-secondary`
-		card.textContent = "teste"
-		temp = document.getElementById(`card${i}`);
-        temp.appendChild(card)
+
 		
 
     }
@@ -86,6 +75,78 @@ function PreencherHomens(){
 
 }
 
+function MostrarMulherFiltrado(id){
+	//limpar o conteudo para adicionar o novo
+	divMulheres.innerHTML = ""
+
+	//vai buscar o id dos produtos
+	array = BDcategorias(id)
+	//saber quantos produtos vao aparecer
+	max = array.length
+
+
+	let rowtemp;  // Variável para armazenar a linha atual
+
+for (let i = 0; i < max; i++) {
+    console.log("este é o i: " + i);
+    console.log(produtos[(array[i] - 1)].id);
+
+    // A cada 5 cards, cria uma nova linha
+    if (i % 5 === 0) {
+        rowtemp = document.createElement('div');  // Cria uma nova linha
+        rowtemp.className = 'row';  // Adiciona a classe 'row' para organizar os cards
+        divMulheres.appendChild(rowtemp);  // Adiciona a linha ao corpo ou onde desejar
+    }
+
+    // Card
+    var card = document.createElement('div');
+    card.className = `card col-2 cardstorecss`;  // Adiciona a classe 'col-md-2' para fazer o card ocupar uma parte da linha
+    card.id = `card${i}`;
+    rowtemp.appendChild(card);
+
+    // Imagem
+    var cardImage = document.createElement('img');
+    cardImage.className = `card-img-top`;
+    cardImage.src = produtos[(array[i] - 1)].src;
+    temp = document.getElementById(`card${i}`);
+    temp.appendChild(cardImage);
+
+    // Div body
+    var cardBody = document.createElement('div');
+    cardBody.className = `card-body`;
+    cardBody.id = `card-body${i}`;
+    temp = document.getElementById(`card${i}`);
+    temp.appendChild(cardBody);
+
+    // h5
+    var cardTitle = document.createElement('h5');
+    cardTitle.className = `card-title justify-content-between`;
+    cardTitle.textContent = produtos[(array[i] - 1)].nome;
+    temp = document.getElementById(`card-body${i}`);
+    temp.appendChild(cardTitle);
+
+    // Descrição
+    var cardText = document.createElement('p');
+    cardText.className = `card-text`;
+    cardText.textContent = produtos[(array[i] - 1)].preco;
+    temp = document.getElementById(`card-body${i}`);
+    temp.appendChild(cardText);
+}
+
+	
+}
+
+function MostrarHomemFiltrado(id){
+	
+}
+
+const selectmulher = document.getElementById('selectmulher')
+
+//atribuir as cidades em função com o pais
+selectmulher.addEventListener('change', function(e) {
+	id = selectmulher.value
+    MostrarMulherFiltrado(id)
+})
 
 //chamar on load
 window.onload = function() {
