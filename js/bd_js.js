@@ -48,84 +48,88 @@ function BDprodutos(){
 }
 
 function BDcategorias(id){
+    let op = Number(id)
 
+    let temp = [1,2]
     //separação de categorias
-    switch (id){
+    switch (op){
         //women
         //sweaters
         case 1:
-            return [1, 2, 3, 4, 5];
+            temp = [1, 2, 3, 4, 5];
         break;
         // t-shirts
         case 2:
-            return [6, 7, 8, 9, 10];
+            temp = [6, 7, 8, 9, 10];
         break;
         //pants
         case 3:
-            return [11, 12, 13, 14, 15];
+            temp = [11, 12, 13, 14, 15];
         break;
         //shoes
         case 4:
-            return [16, 17, 18, 19, 20];
+            temp = [16, 17, 18, 19, 20];
         break;
 
         //men
         // sweaters
         case 5:
-            return [21, 22, 23, 24, 25];
+            temp = [21, 22, 23, 24, 25];
         break;
         // t-shirts
         case 6:
-            return [26, 27, 28, 29, 30];
+            temp = [26, 27, 28, 29, 30];
         break;
         // pants
         case 7:
-            return [31, 32, 33, 34, 35];
+            temp = [31, 32, 33, 34, 35];
         break;
         // shoes
         case 8:
-            return [36, 37, 38, 39, 40];
+            temp = [36, 37, 38, 39, 40];
         break;
 
         //promos
         //women
         case 9:
-            return [3,10,15,19];
+            temp = [3,10,15,19];
         break;
         //men
         case 10:
-            return [24,30,35,38];
+            temp = [24,30,35,38];
         break;
 
         //top
         //mulher
         case 11:
-            return [3,10,15,19];
+            temp = [3,10,15,19];
         break;
         //men
         case 12:
-            return [22,28,33,36];
+            temp = [22,28,33,36];
         break;
 
         //new
         //women
         case 13:
-            return [2,9,14,18];
+            temp = [2,9,14,18];
         break;
         //men
         case 14:
-            return [23,29,34,37];
+            temp = [23,29,34,37];
         break;
 
         //todos
         //women
         case 15:
-            return [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+            temp = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
         break;
         //men
         case 16:
-            return [21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40];
+            temp = [21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40];
         break;
 
     }
+
+    return temp
 }

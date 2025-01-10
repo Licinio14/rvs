@@ -1,6 +1,17 @@
 .searchstore{
     background-color: rgba(236, 236, 236, 0);
     border-radius: 10px;
+    min-width: 150px;
+}
+
+.labelsearchstore{
+    background-color: rgba(236, 236, 236, 0);
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.spacesearchstore{
     min-width: auto;
 }
 
@@ -15,11 +26,37 @@
     margin-right: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    border-style: none;
-    background-color: gray;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
 }
 
 .divparacartoes{
     margin: auto;
     padding: auto;
+    
+}
+
+.divdastore{
+    width: 100%;
+    margin: auto;
+}
+
+.seletorDeCategoria{
+
+}
+
+.card-title{
+    color: white;
+}
+
+.card-text{
+    color: white;
+}
+
+.card-img-top{
+    max-width: 100%;
+    align-self: center;
+    border-radius: 20px;
+    margin-top: 20px;
 }
