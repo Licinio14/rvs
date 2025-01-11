@@ -26,7 +26,7 @@
     margin-right: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding: 10px;
+    padding: 2%;
     border-radius: 20px;
     background-color: black;
 }
@@ -42,10 +42,6 @@
     margin: auto;
 }
 
-.seletorDeCategoria{
-
-}
-
 .card-title{
     color: white;
 }
@@ -58,5 +54,110 @@
     max-width: 100%;
     align-self: center;
     border-radius: 20px;
-    margin-top: 20px;
+}
+
+.card-body{
+    align-items: center;
+    text-align: center;
+}
+
+.cart-div-col-10{
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    color: white;
+}
+
+.h1-titulo-cart{
+    font-size: clamp(0rem, 4vw, 4rem);
+    border-style: solid;
+    border-width: clamp(0rem, 0.5vw, 0.5rem);
+    padding: 1%;
+}
+
+.cart-div-name{
+    font-size: clamp(0rem, 1.5vw, 2rem);
+    border-style: solid;
+    border-width: clamp(0rem, 0.1vw, 0.1rem);
+    margin-top: 10px;
+    padding: 1%;
+    
+}
+
+.bin-cart{
+    width: 50%;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.btt-cart-quantati{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.div-price-cart{
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+.btt-buy-cart{
+    width: 100%;
+    border-radius: 20px;
+    background-color: white;
+    border-style: solid;
+    font-size: clamp(0.1rem, 1.5vw, 1.5rem);
+}
+
+.btt-buy-cart:hover{
+    background-color: rgb(181, 253, 171);
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+
+.btt-cart-add{
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(0, 255, 0);
+}
+
+.btt-cart-sub{
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(255, 0, 0);
+}
+
+
+.btt-cart-add:hover{
+    background-color: rgb(0, 255, 0);
+    border-color: rgb(255, 255, 255);
+}
+
+.btt-cart-sub:hover{
+    background-color: rgb(255, 0, 0);
+    border-color: rgb(255, 255, 255);
+}
+
+.center-cart-divs{
+    padding: 2%;
+}
+
+.div-total-cart{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+.div-preco-cart{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.h1-font-cart{
+    font-size: clamp(0rem, 2vw, 2rem);
 }
