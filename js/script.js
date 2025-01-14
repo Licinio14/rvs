@@ -301,5 +301,5 @@ function AdicionarAoCarrinho(i) {
 	alert(`Produto adicionado ao carrinho - Tamanho: ${selectedSize.textContent}`);
 	closeModal();
 
-	console.log(carrinho)
+	ChangeCartLabel()
 }

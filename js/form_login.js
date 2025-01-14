@@ -74,6 +74,7 @@ document.getElementById('LoginForm').addEventListener('submit', function(event) 
 
         //guardar na sessao
 	    sessionStorage.setItem('name', name);
+        sessionStorage.setItem('email', email);
 
         //redireciona o usuario para a home
         window.location.href = 'index.html';

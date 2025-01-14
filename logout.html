@@ -20,7 +20,7 @@
 
 </head>
 
-<body>
+<body onload="ChangeCartLabellogout()">
     <!-- menu -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -64,7 +64,7 @@
 
     <!-- Banner GIF -->
     <div class="container">
-        <a href="sale.html"><img src="img/Design sem nome (3).gif" alt="Promotional Banner" class="img-fluid banner-gif rounded-banner"></a>
+        <a href="sale.html"><img src="img/Banner final.gif" alt="Promotional Banner" class="img-fluid banner-gif rounded-banner"></a>
     </div>
     <br>
 
@@ -72,50 +72,48 @@
     <img src="img/logo-icon.png" class="logo" alt="Logo">
     <br>
 
-    <!-- conteudo para login ou registo -->
-    <div class="col-10 div-form-login text-center">
-        <div class="text-center form-login ">
-            <form id="LoginForm">
-                <div class="mb-3">
-                    <input type="text" class="form-control" id="InputName" placeholder="Name">
-                    <label class="text-start" id="LabelName" style="color: red;"></label>
-                </div>
-                <div class="mb-3">
-                    <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Email">
-                    <label class="text-start" id="LabelEmail" style="color: red;"></label>
-                </div>
-                <div class="mb-3">
-                    <input type="password" class="form-control" id="InputPassword" placeholder="Password">
-                    <label class="text-start" id="LabelPass" style="color: red;"></label>
-                </div>
-                <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="Check1"  >
-                    <label class="form-check-label" for="Check1">By logging in, I declare that I have read and accept the Terms and Conditions, and the use of my personal data as explained in the Privacy Policy.</label>
-                    <label class="text-start" id="Labelcheck" style="color: red;"></label>
-                </div>
-                <button type="submit" class="btn btn-primary" onclick="Login()">LOGIN</button>
-                </form>
+    <!-- conteudo para logout ou registo -->
+    <div class="container">
+        <div class="about-us-section">
+            <h2 class="about-us-title">User Information</h2>
+    <section class="container mt-5">
+        <form id="contact-form" class="form-horizontal">
+          <div class="form-group">
+            <label for="nome" class="col-sm-2 control-label">Name:</label>
+            <div class="col-sm-10">
+              <input type="text" id="nome" name="nome" class="form-control" disabled>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email" class="col-sm-2 control-label">E-mail:</label>
+            <div class="col-sm-10">
+              <input type="email" id="email" name="email" class="form-control" disabled>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10 mt-4">
+              <input type="button" class="btn btn-primary" id="logout-btt" onclick="LogOut()" value="LogOut"></input>
+            </div>
+          </div>
+        </form>
+      </section>  
         </div>
-
     </div>
 
 
 
-    <footer class="bg-dark text-white mt-5">
+    <footer class="bg-dark text-white mt-5 fixed-bottom">
         <hr>
         <div class="socials-container">
-            <!-- Linkedin -->
-            <a class="socials-icon" href="https://www.linkedin.com/in/goncalo-szabo-rio/" target="_blank"
-                aria-hidden="true"><i class="fab fa-linkedin-in"></i></a>
-            <!-- Github -->
-            <a class="socials-icon" href="https://github.com/SzaboRIO/" target="_blank" aria-hidden="true"><i
-                    class="fab fa-github"></i></a>
-            <!-- Mail -->
-            <a class="socials-icon" href="mailto:goncaloszabo@gmail.com" target="_blank" aria-hidden="true"><i
-                    class="fa-regular fa-envelope"></i></a>
+            <a class="socials-icon" href="https://www.facebook.com/CesaeDigital" target="_blank"><i
+                    class="fa-brands fa-facebook"></i></a>
+            <a class="socials-icon" href="https://www.instagram.com/cesae.digital/" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a class="socials-icon" href="https://www.tiktok.com/@ocesaedigital" target="_blank"><i
+                    class="fa-brands fa-tiktok"></i></a>
+            <a class="socials-icon" href="mailto:geral@rvs.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
         </div>
-        <!-- Footer description -->
-        <p class="text-center">&copy; 2025 RVS</p>
+        <p class="text-center">&copy; 2025 RVS Clothing</p>
     </footer>
 
     <!-- Bootstrap script -->
@@ -125,7 +123,6 @@
 
     <!-- scripts de js -->
     <script src="js/bd_js.js"></script>
-    <script src="js/form_login.js"></script>
     <script src="js/userinfo.js"></script>
 </body>
 
