@@ -45,6 +45,7 @@ function Eliminar(id,tamanho){
     sessionStorage.setItem('carrinho', JSON.stringify(carrinho))
     PreenCarrinho();
     GetTotal()
+    ChangeCartLabel()
 }
 
 
@@ -156,8 +157,9 @@ function Comprar(){
     alert("Comprado com sucesso! Gastou: " + precoTotal)
 
     carrinho = [];
-    sessionStorage.removeItem('carrinho');
+    sessionStorage.removeItem('carrinho')
     divcart.innerHTML = ""
+    ChangeCartLabel()
 
     GetTotal()
 }
@@ -168,3 +170,26 @@ window.onload = function() {
     PreenCarrinho()
     
 }
+
+function ChangeCartLabel(){
+	let label = document.getElementById('cart-label-text')
+
+	//vai buscar o carrinho casa exista, ou deixa em branco caso nao exista
+	carrinho = JSON.parse(sessionStorage.getItem('carrinho')) || []
+
+	let tamanho = carrinho.length
+
+	if (tamanho == 0){
+		label.textContent = ""
+	}else {
+		label.textContent = tamanho
+	}
+
+	console.log (tamanho)
+
+}
+
+//quando carrega mostra a quantidade de itens no carrinho
+document.addEventListener('DOMContentLoaded', function() {
+	ChangeCartLabel()
+  });
