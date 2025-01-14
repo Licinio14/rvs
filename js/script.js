@@ -242,8 +242,6 @@ function ChangeCartLabel(){
 		label.textContent = tamanho
 	}
 
-	console.log (tamanho)
-
 }
 
 
@@ -300,6 +298,4 @@ function AdicionarAoCarrinho(i) {
 	alert(`Produto adicionado ao carrinho - Tamanho: ${selectedSize.textContent}`)
 	closeModal();
 	ChangeCartLabel()
-
-	console.log(carrinho)
 }

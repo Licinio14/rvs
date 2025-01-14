@@ -185,8 +185,6 @@ function ChangeCartLabel(){
 		label.textContent = tamanho
 	}
 
-	console.log (tamanho)
-
 }
 
 //quando carrega mostra a quantidade de itens no carrinho
