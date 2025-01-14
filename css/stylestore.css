@@ -29,6 +29,12 @@
     padding: 2%;
     border-radius: 20px;
     background-color: black;
+    transition: transform 0.3s ease;
+}
+
+.cardstorecss:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
 }
 
 .divparacartoes{
@@ -161,3 +167,48 @@
 .h1-font-cart{
     font-size: clamp(0rem, 2vw, 2rem);
 }
+
+.cart-label-text{
+    position: fixed;
+    right: 15%; 
+    top: 1%;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    transform: translate(9px);
+}
+
+.cart-label-img{
+    position: fixed;
+    right: 15%;
+    top: 0%;
+    transform: translate(0px,15px);
+}
+
+.icon-util-posi{
+    position: fixed;
+    right: 5%;
+    top: 0%;
+    transform: translate(0px,15px);
+}
+
+.div-label-cart{
+    width: 10px;
+}
+
+@media (max-width: 400px) {
+    .cart-label-text{
+        position: fixed;
+        right: 35%; 
+        top: 1%;
+        color: rgb(0, 0, 0);
+        font-weight: 900;
+        transform: translate(9px);
+    }
+    
+    .cart-label-img{
+        position: fixed;
+        right: 35%;
+        top: 0%;
+        transform: translate(0px,15px);
+    }
+  }

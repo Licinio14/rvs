@@ -202,9 +202,6 @@ function MostrarMulherFiltrado(id){
 	
 }
 
-function MostrarHomemFiltrado(id){
-	
-}
 
 const selectmulher = document.getElementById('selectmulher')
 
@@ -224,6 +221,33 @@ function MenLoad(){
 	produtos = BDprodutos()
 	PreencherHomens()
 }
+
+//quando carrega mostra a quantidade de itens no carrinho
+document.addEventListener('DOMContentLoaded', function() {
+	ChangeCartLabel()
+  });
+
+
+function ChangeCartLabel(){
+	let label = document.getElementById('cart-label-text')
+
+	//vai buscar o carrinho casa exista, ou deixa em branco caso nao exista
+	carrinho = JSON.parse(sessionStorage.getItem('carrinho')) || []
+
+	let tamanho = carrinho.length
+
+	if (tamanho == 0){
+		label.textContent = ""
+	}else {
+		label.textContent = tamanho
+	}
+
+	console.log (tamanho)
+
+}
+
+
+
 
 
 //fechar o modal
@@ -260,7 +284,7 @@ function AdicionarAoCarrinho(i) {
 	//vai buscar o carrinho casa exista, ou deixa em branco caso nao exista
 	carrinho = JSON.parse(sessionStorage.getItem('carrinho')) || [];
 
-	let item = carrinho.find(item => item.id === i && item.tamanho === selectedSize.textContent);
+	let item = carrinho.find(item => item.id === i && item.tamanho === selectedSize.textContent)
 
 	if(item){
 		item.quantidade++
@@ -273,8 +297,9 @@ function AdicionarAoCarrinho(i) {
 	//guardar na sessao
 	sessionStorage.setItem('carrinho', JSON.stringify(carrinho));
 
-	alert(`Produto adicionado ao carrinho - Tamanho: ${selectedSize.textContent}`);
+	alert(`Produto adicionado ao carrinho - Tamanho: ${selectedSize.textContent}`)
 	closeModal();
+	ChangeCartLabel()
 
 	console.log(carrinho)
 }
