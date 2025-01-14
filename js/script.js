@@ -202,10 +202,13 @@ function MostrarMulherFiltrado(id){
 	
 }
 
+function MostrarHomemFiltrado(id){
+	
+}
 
 const selectmulher = document.getElementById('selectmulher')
 
-//atribuir as cidades em função com o pais
+//ir buscar os ids dos produtos para exibir
 selectmulher.addEventListener('change', function(e) {
 	id = selectmulher.value
     MostrarMulherFiltrado(id)
@@ -282,7 +285,7 @@ function AdicionarAoCarrinho(i) {
 	//vai buscar o carrinho casa exista, ou deixa em branco caso nao exista
 	carrinho = JSON.parse(sessionStorage.getItem('carrinho')) || [];
 
-	let item = carrinho.find(item => item.id === i && item.tamanho === selectedSize.textContent)
+	let item = carrinho.find(item => item.id === i && item.tamanho === selectedSize.textContent);
 
 	if(item){
 		item.quantidade++
@@ -295,7 +298,8 @@ function AdicionarAoCarrinho(i) {
 	//guardar na sessao
 	sessionStorage.setItem('carrinho', JSON.stringify(carrinho));
 
-	alert(`Produto adicionado ao carrinho - Tamanho: ${selectedSize.textContent}`)
+	alert(`Produto adicionado ao carrinho - Tamanho: ${selectedSize.textContent}`);
 	closeModal();
-	ChangeCartLabel()
+
+	console.log(carrinho)
 }

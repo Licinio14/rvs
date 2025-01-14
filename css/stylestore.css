@@ -25,10 +25,11 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     padding: 2%;
     border-radius: 20px;
     background-color: black;
+    
     transition: transform 0.3s ease;
 }
 
@@ -210,9 +211,19 @@
     border-radius: 10px;
 }
 
+.user-name-icon-login{
+    font-weight: 900;
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
+    margin-top: auto;
+    margin-bottom: auto;
+    color: black;
+    text-decoration: none;
+}
 
 
-@media (max-width: 400px) {
+
+
+@media (max-width: 500px) {
     .cart-label-text{
         position: fixed;
         right: 35%; 
@@ -228,4 +239,105 @@
         top: 0%;
         transform: translate(0px,15px);
     }
+}
+
+.bodyindex {
+    background-color: white;
   }
+  
+  .menutitulo {
+    font-size: 30px;
+    font-weight: 900;
+  }
+  
+  .iconsmenu {
+    max-width: 30px;
+    max-height: 30px;
+  }
+  
+  .logo {
+    position: absolute;
+    pointer-events: none;
+    top: 1%;
+    left: 0.5%;
+    width: 150px;
+    height: auto;
+    max-width: 20%;
+    transform: rotate(-25deg);
+  }
+  
+  .nav-advanced {
+    margin-left: 145px;
+  }
+  
+  .socials-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 0;
+  }
+  
+  .socials-icon {
+    font-size: 20px;
+    color: white;
+  }
+  
+  footer {
+    padding-bottom: 10px;
+  }
+  
+  .carousel-container {
+    margin: 20px auto;
+  }
+  
+  .carousel-inner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px; /* Cantos arredondados nas imagens do carrossel */
+  }
+  
+  .banner-gif {
+    width: 100%;
+    height: auto;
+  }
+  
+  .rounded-banner {
+    border-radius: 10px !important; /* Força os cantos arredondados na imagem do banner */
+  }
+  
+  .btn-dark {
+    background-color: black;
+    border-color: black;
+  }
+  
+  .btn-dark:hover {
+    background-color: #333;
+    border-color: #333;
+  }
+  
+  .about-us-section {
+    background-color: #f8f9fa; /* Fundo claro */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin-top: 20px; /* Espaçamento acima do container */
+    margin-bottom: 22px;
+  }
+  
+  .about-us-title {
+    font-size: 24px; /* Tamanho da fonte do título */
+    font-weight: bold; /* Texto em negrito */
+    margin-bottom: 15px; /* Espaço abaixo do título */
+    text-align: center; /* Centraliza o título */
+  }
+  
+  .about-us-text {
+    font-size: 16px; /* Tamanho da fonte do texto */
+    line-height: 1.6; /* Altura da linha para legibilidade */
+    color: #343a40; /* Cor do texto */
+    text-align: justify; /* Justifica o texto */
+  }
+  
