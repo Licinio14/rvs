@@ -74,3 +74,41 @@ footer {
   background-color: #333;
   border-color: #333;
 }
+
+.about-us-section {
+  background-color: #f8f9fa; /* Fundo claro */
+  padding: 20px; /* Espaçamento interno */
+  border-radius: 10px; /* Cantos arredondados */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+  margin-top: 20px; /* Espaçamento acima do container */
+  margin-bottom: 22px;
+}
+
+.about-us-title {
+  font-size: 24px; /* Tamanho da fonte do título */
+  font-weight: bold; /* Texto em negrito */
+  margin-bottom: 15px; /* Espaço abaixo do título */
+  text-align: center; /* Centraliza o título */
+}
+
+.about-us-text {
+  font-size: 16px; /* Tamanho da fonte do texto */
+  line-height: 1.6; /* Altura da linha para legibilidade */
+  color: #343a40; /* Cor do texto */
+  text-align: justify; /* Justifica o texto */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Garante que o conteúdo fique na parte inferior */
+  height: 100%; /* Faz o card ocupar toda a altura disponível */
+  border: none; /* Remove bordas padrão (opcional) */
+  margin-top: -24px;
+}
+
+.card-img-top {
+  border-radius: 10px; /* Cantos arredondados na imagem */
+  object-fit: cover; /* Ajusta a imagem para cobrir o espaço sem distorção */
+  height: auto; /* Ajusta a altura para a proporção natural */
+}
