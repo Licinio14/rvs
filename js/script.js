@@ -11,14 +11,11 @@
 		// 7 - pants
 		// 8 - shoes
 		
-		// 9 - promos mulher
-		// 10 - promos homem
+		// 9 - promos
 		
-		// 11 - top mulher
-		// 12 - top homem
+		// 11 - top
 		
-		// 13 - new mulher
-		// 14 - new homem
+		// 13 - new
 		
 		// 15 - tudo mulher
 		// 16 - tudo homem
@@ -208,27 +205,48 @@ function MostrarHomemFiltrado(id){
 
 const selectmulher = document.getElementById('selectmulher')
 
+if (selectmulher != null){
+
 //ir buscar os ids dos produtos para exibir
 selectmulher.addEventListener('change', function(e) {
 	id = selectmulher.value
     MostrarMulherFiltrado(id)
 })
 
+}
+
+
+
 //chamar on load
 function WomenLoad(){
 	produtos = BDprodutos()
 	PreencherMulheres()
+	ChangeCartLabel()
 }
 
 function MenLoad(){
 	produtos = BDprodutos()
 	PreencherHomens()
+	ChangeCartLabel()
 }
 
-//quando carrega mostra a quantidade de itens no carrinho
-document.addEventListener('DOMContentLoaded', function() {
+function SaleLoad(){
+	produtos = BDprodutos()
+	MostrarMulherFiltrado(9)
 	ChangeCartLabel()
-  });
+}
+
+function TopLoad(){
+	produtos = BDprodutos()
+	MostrarMulherFiltrado(11)
+	ChangeCartLabel()
+}
+
+function NewLoad(){
+	produtos = BDprodutos()
+	MostrarMulherFiltrado(13)
+	ChangeCartLabel()
+}
 
 
 function ChangeCartLabel(){

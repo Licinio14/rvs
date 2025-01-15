@@ -90,33 +90,18 @@ function BDcategorias(id){
         break;
 
         //promos
-        //women
         case 9:
-            temp = [3,10,15,19];
-        break;
-        //men
-        case 10:
-            temp = [24,30,35,38];
+            temp = [3,10,15,19,24,30,35,38];
         break;
 
         //top
-        //mulher
         case 11:
-            temp = [3,10,15,19];
-        break;
-        //men
-        case 12:
-            temp = [22,28,33,36];
+            temp = [1,8,13,17,22,28,33,36];
         break;
 
         //new
-        //women
         case 13:
-            temp = [2,9,14,18];
-        break;
-        //men
-        case 14:
-            temp = [23,29,34,37];
+            temp = [2,9,14,18,23,29,34,37];
         break;
 
         //todos

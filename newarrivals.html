@@ -11,17 +11,16 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
     <link rel="stylesheet" href="css/stylestore.css">
     <link rel="stylesheet" href="css/modal.css">
-
+    
     <!-- Font Awesome icons -->
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
 
 </head>
 
-<body onload="ChangeCartLabellogout()">
-    
+<body onload="NewLoad()">
     <!-- menu -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid">
@@ -35,7 +34,7 @@
                         <a class="nav-link" href="index.html"><b>Home</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="women.html"><b>Women</b></a>
+                        <a class="nav-link" href="index.html"><b>Women</b></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="men.html"><b>Men</b></a>
@@ -61,50 +60,79 @@
         </div>
     </nav>
 
+    <br>
+
+    <!-- Banner GIF -->
+    <div class="container">
+        <a href="sale.html"><img src="img/Banner final.gif" alt="Promotional Banner" class="img-fluid banner-gif rounded-banner"></a>
+    </div>
+    <br>
+
+    <!-- logo -->
+    <img src="img/logo-icon.png" class="logo fixed-top" alt="Logo">
 
 
-
-    <div class="content">
-        
-
-        <!-- Banner GIF -->
-        <div class="container">
-            <a href="sale.html"><img src="img/Banner final.gif" alt="Promotional Banner" class="img-fluid banner-gif rounded-banner"></a>
+    <!-- pesquisa -->
+    <br>
+    <div class="row container-fluid">
+        <div class="col-9"></div>
+        <div class="col-2 searchstore text-end">
+            <br>
+                <!-- teste -->
+                <div class="d-grid gap-2 d-md-flex justify-content-md-center labelsearchstore">
+                    <p class="storefiltro">Filtrar por:</p>
+                    <form id="womensearch" method="post">
+                        <select id="selectmulher" class="seletorDeCategoria">
+                            <option id="15" value="15" class="optionselectstore">All</option>
+                            <option id="1" value="1" class="optionselectstore">Sweaters</option>
+                            <option id="2" value="2" class="optionselectstore">T-Shirts</option>
+                            <option id="3" value="3" class="optionselectstore">Pants</option>
+                            <option id="4" value="4" class="optionselectstore">Shoes</option>
+                        </select>
+                    </form>
+                </div>
+            <br>
         </div>
-        <br>
+    </div>
+    
 
-        <!-- logo -->
-        <img src="img/logo-icon.png" class="logo fixed-top" alt="Logo">
-        <br>
+    <!-- div para adicionar o conteudo que esta em js -->
+    <div class="row divdastore" id="divmulheres"></div>
 
-        <!-- conteudo para logout ou registo -->
-        <div class="container">
-            <div class="about-us-section">
-                <h2 class="about-us-title">User Information</h2>
-        <section class="container mt-5">
-            <form id="contact-form" class="form-horizontal">
-            <div class="form-group">
-                <label for="nome" class="col-sm-2 control-label">Name:</label>
-                <div class="col-sm-10">
-                <input type="text" id="nome" name="nome" class="form-control" disabled>
-                </div>
+    <!-- Modal -->
+    <div id="productModal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="close-button" onclick="closeModal()">&times;</button>
+            
+            <div class="modal-image">
+                <img alt="Product Image" id="modal-image">
             </div>
-            <div class="form-group">
-                <label for="email" class="col-sm-2 control-label">E-mail:</label>
-                <div class="col-sm-10">
-                <input type="email" id="email" name="email" class="form-control" disabled>
+            
+            <div class="modal-details">
+                <h2 class="modal-title" id="modal-title"></h2>
+                <p class="modal-description" id="modal-description"></p>
+                
+                <div class="size-price-container">
+                    <div class="size-selector">
+                        <label class="size-label"></label>
+                        <div class="size-options">
+                            <button class="size-button" onclick="selectSize(this)">P</button>
+                            <button class="size-button" onclick="selectSize(this)">M</button>
+                            <button class="size-button" onclick="selectSize(this)">G</button>
+                            <button class="size-button" onclick="selectSize(this)">GG</button>
+                        </div>
+                    </div>
+                    <div class="modal-price" id="modal-price"></div>
                 </div>
-            </div>
-            <div class="form-group">
-                <div class="col-sm-offset-2 col-sm-10 mt-4">
-                <input type="button" class="btn btn-primary" id="logout-btt" onclick="LogOut()" value="LogOut"></input>
-                </div>
-            </div>
-            </form>
-        </section>  
+                
+                <button class="add-to-cart" id="add-to-cart">
+                    Adicionar ao Carrinho
+                </button>
             </div>
         </div>
     </div>
+
+
 
 
     <footer class="bg-dark text-white mt-5">
@@ -127,7 +155,8 @@
         crossorigin="anonymous"></script>
 
     <!-- scripts de js -->
-    <script src="js/bd_js.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/bd_js.js"></script>   
     <script src="js/userinfo.js"></script>
 </body>
 
