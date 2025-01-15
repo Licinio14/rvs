@@ -72,7 +72,7 @@ function PreenCarrinho(){
         temp.appendChild(div)
         // imagem
 		var div = document.createElement('div')  
-        div.className = `col-2 cart-div-name center-cart-divs`
+        div.className = `col-2 cart-div-name center-cart-divs cart-size-visible`
 		div.textContent = carrinho[i].tamanho
 		temp = document.getElementById(`rowcart${i}`)
         temp.appendChild(div)
@@ -85,7 +85,7 @@ function PreenCarrinho(){
         temp.appendChild(div)
         // imagem
 		var div = document.createElement('div')  
-        div.className = `col-3 cart-div-name center-cart-divs`
+        div.className = `col-3 cart-div-name center-cart-divs cart-btt-visible`
 		div.id = `itemId${i}`
 		temp = document.getElementById(`rowcart${i}`)
         temp.appendChild(div)

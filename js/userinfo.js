@@ -13,10 +13,15 @@ function IsUserLogin(){
 }
 
 function LogOut(){
-    sessionStorage.removeItem('name')
-    sessionStorage.removeItem('email')
+    //confirma que quer sair
+    let conf = confirm("Are you sure you want to leave?")
 
-    window.location.href = "index.html";
+    //se sim, limpa a sessao e redireciona para o home
+    if (conf){
+        sessionStorage.removeItem('name')
+        sessionStorage.removeItem('email')
+        window.location.href = "index.html";
+    }
 
 }
 
@@ -27,6 +32,7 @@ function UserVerify(){
 	name = sessionStorage.getItem('name') || "null"
 
 
+    //se existe user, muda o icon pelo nome do user
     if (name != "null"){
         divUser.innerHTML = `
             <div class="container-fluid">
