@@ -134,6 +134,8 @@ body {
 
 .btt-buy-cart{
     width: 100%;
+    min-width: 40px;
+    min-height: 20px;
     border-radius: 20px;
     background-color: white;
     border-style: solid;
@@ -169,8 +171,17 @@ body {
     border-color: rgb(255, 255, 255);
 }
 
+.cart-row-div{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.text-label-cart-quantati{
+    font-size: font-size: clamp(0.1rem, 2vw, 2rem);
+}
+
 .center-cart-divs{
-    padding: 2%;
+    padding: 1%;
 }
 
 .div-total-cart{
@@ -242,8 +253,8 @@ body {
 }
 
 .condiction-user-login{
-    font-weight: 700;
-    font-size: clamp(0rem, 0.7vw, 0.7rem);
+    font-weight: 400;
+    font-size: clamp(0.7rem, 0.7vw, 0.7rem);
 }
 
 

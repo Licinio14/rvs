@@ -94,7 +94,7 @@ function PreenCarrinho(){
 
         // row para a quantidade
 		var div = document.createElement('div')  
-        div.className = `row`
+        div.className = `row cart-row-div`
         div.id = `rowcontidade${i}`
         temp = document.getElementById(`itemId${i}`)
         temp.appendChild(div)
@@ -111,7 +111,7 @@ function PreenCarrinho(){
 
         // card
 		var label = document.createElement('label')  
-        label.className = `col-2`
+        label.className = `col-2 text-label-cart-quantati`
         label.textContent = carrinho[i].quantidade
         label.id= `label-${carrinho[i].id}-${carrinho[i].tamanho}`
         temp = document.getElementById(`rowcontidade${i}`)
