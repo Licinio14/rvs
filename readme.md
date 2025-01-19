@@ -25,9 +25,15 @@ At RVS, we bring the precision of software development into fashion design:
 
 ## 👥 Meet Our Team
 
-| ![Gonçalo Rio](https://github.com/Licinio14/rvs/blob/main/assets/goncalo.jpg) | ![Ana Vale](assets/ana.jpg) | ![Licínio Sousa](https://raw.githubusercontent.com/yourusername/RVS/main/images/3.jpg) |
-|:---:|:---:|:---:|
-| **Gonçalo Rio** | **Ana Vale** | **Licínio Sousa** |
+<p align="center">
+  <img src="assets/Goncalo.jpg" width="250" alt="Gonçalo Rio">
+  <img src="assets/ana.jpg" width="250" alt="Ana Vale">
+  <img src="assets/licinio.jpg" width="250" alt="Licínio Sousa">
+</p>
+
+<p align="center">
+  <strong>Gonçalo Rio • Ana Vale • Licínio Sousa</strong>
+</p>
 
 ## 🚀 Features
 
@@ -41,36 +47,14 @@ At RVS, we bring the precision of software development into fashion design:
 ## 📸 Our Brand
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/yourusername/RVS/main/images/4.jpg" alt="RVS Logo">
+  <img src="logo.png" alt="RVS Logo">
 </p>
-
-## 🛠️ Technology Stack
-
-- Website: React.js, Next.js
-- E-commerce: Shopify
-- Payment Processing: Stripe
-- Analytics: Google Analytics
-- CI/CD: GitHub Actions
-
-## 📝 Contributing
-
-We welcome contributions from the community! If you'd like to contribute, please:
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## 📫 Contact Us
 
 - Email: contact@rvs-fashion.com
 - Instagram: [@rvs_fashion](https://instagram.com/rvs_fashion)
 - Twitter: [@RVS_Fashion](https://twitter.com/RVS_Fashion)
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ---
 
