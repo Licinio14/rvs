@@ -1,0 +1,78 @@
+<div align="center">
+  <img src="assets/logo.png" alt="RVS Logo" width="200"/>
+
+  # RVS - Style Meets Comfort
+  
+  [![Made with Love](https://img.shields.io/badge/Made%20with-Love-red.svg)](https://github.com/yourusername/RVS)
+  [![Founded](https://img.shields.io/badge/Founded-2025-blue.svg)](https://github.com/yourusername/RVS)
+  [![Contributors](https://img.shields.io/badge/Contributors-3-green.svg)](https://github.com/yourusername/RVS)
+</div>
+
+## 🌟 About RVS
+
+RVS is more than just a clothing brand—it's a story of friendship, determination, and creative passion brought to life. Born from the collaborative vision of three software developers turned fashion innovators, RVS represents the perfect fusion of technology and style.
+
+### 💫 Our Story
+
+The name RVS emerges from the founders' surnames (Rio, Vale, Sousa), symbolizing the unique bond that sparked this creative venture. What began as a shared dream during a software development course has evolved into a dynamic fashion brand dedicated to self-expression and individual style.
+
+### 🎯 Our Vision
+
+At RVS, we bring the precision of software development into fashion design:
+- Modern and versatile collections
+- Sustainable manufacturing processes
+- Quality-focused production
+- Technology-inspired designs
+- Innovative approach to fashion
+
+## 👥 Meet Our Team
+
+| [![Gonçalo Rio](assets/goncalo.jpg)](https://github.com/username1) | [![Ana Vale](assets/ana.jpg)](https://github.com/username2) | [![Licínio Sousa](assets/licinio.jpg)](https://github.com/username3) |
+|:---:|:---:|:---:|
+| **Gonçalo Rio** | **Ana Vale** | **Licínio Sousa** |
+
+## 🚀 Features
+
+- 👕 High-quality clothing collections
+- 🎨 Innovative designs
+- 💻 Tech-inspired aesthetics
+- ♻️ Sustainable materials
+- 🌍 Global shipping
+- 🤝 Community-driven approach
+
+## 📸 Collection Preview
+
+![RVS Collection](assets/collection-preview.jpg)
+
+## 🛠️ Technology Stack
+
+- Website: React.js, Next.js
+- E-commerce: Shopify
+- Payment Processing: Stripe
+- Analytics: Google Analytics
+- CI/CD: GitHub Actions
+
+## 📝 Contributing
+
+We welcome contributions from the community! If you'd like to contribute, please:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📫 Contact Us
+
+- Website: [www.rvs-fashion.com](https://www.rvs-fashion.com)
+- Email: contact@rvs-fashion.com
+- Instagram: [@rvs_fashion](https://instagram.com/rvs_fashion)
+- Twitter: [@RVS_Fashion](https://twitter.com/RVS_Fashion)
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+---
+
+<p align="center">Built with ❤️ by the RVS Team</p>
