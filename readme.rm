@@ -1,12 +1,10 @@
-<div align="center">
-  <img src="assets/logo.png" alt="RVS Logo" width="200"/>
+# <p align="center">RVS - Style Meets Comfort</p>
 
-  # RVS - Style Meets Comfort
-  
-  [![Made with Love](https://img.shields.io/badge/Made%20with-Love-red.svg)](https://github.com/yourusername/RVS)
-  [![Founded](https://img.shields.io/badge/Founded-2025-blue.svg)](https://github.com/yourusername/RVS)
-  [![Contributors](https://img.shields.io/badge/Contributors-3-green.svg)](https://github.com/yourusername/RVS)
-</div>
+<p align="center">
+  <a href="https://github.com/yourusername/RVS"><img src="https://img.shields.io/badge/Made%20with-Love-red.svg" alt="Made with Love"></a>
+  <a href="https://github.com/yourusername/RVS"><img src="https://img.shields.io/badge/Founded-2025-blue.svg" alt="Founded"></a>
+  <a href="https://github.com/yourusername/RVS"><img src="https://img.shields.io/badge/Contributors-3-green.svg" alt="Contributors"></a>
+</p>
 
 ## 🌟 About RVS
 
@@ -27,7 +25,7 @@ At RVS, we bring the precision of software development into fashion design:
 
 ## 👥 Meet Our Team
 
-| [![Gonçalo Rio](https://github.com/Licinio14/rvs/blob/main/assets/goncalo.jpg)] (https://github.com/username1) | [![Ana Vale](assets/ana.jpg)](https://github.com/username2) | [![Licínio Sousa](assets/licinio.jpg)](https://github.com/username3) |
+| ![Gonçalo Rio](https://raw.githubusercontent.com/yourusername/RVS/main/images/1.jpg) | ![Ana Vale](https://raw.githubusercontent.com/yourusername/RVS/main/images/2.jpg) | ![Licínio Sousa](https://raw.githubusercontent.com/yourusername/RVS/main/images/3.jpg) |
 |:---:|:---:|:---:|
 | **Gonçalo Rio** | **Ana Vale** | **Licínio Sousa** |
 
@@ -40,9 +38,11 @@ At RVS, we bring the precision of software development into fashion design:
 - 🌍 Global shipping
 - 🤝 Community-driven approach
 
-## 📸 Collection Preview
+## 📸 Our Brand
 
-![RVS Collection](assets/collection-preview.jpg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/yourusername/RVS/main/images/4.jpg" alt="RVS Logo">
+</p>
 
 ## 🛠️ Technology Stack
 
@@ -64,7 +64,6 @@ We welcome contributions from the community! If you'd like to contribute, please
 
 ## 📫 Contact Us
 
-- Website: [www.rvs-fashion.com](https://www.rvs-fashion.com)
 - Email: contact@rvs-fashion.com
 - Instagram: [@rvs_fashion](https://instagram.com/rvs_fashion)
 - Twitter: [@RVS_Fashion](https://twitter.com/RVS_Fashion)
