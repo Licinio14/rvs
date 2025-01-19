@@ -8,10 +8,6 @@
   [![Contributors](https://img.shields.io/badge/Contributors-3-green.svg)](https://github.com/yourusername/RVS)
 </div>
 
-<p align="center">
-  <img src="assets/banner.gif" alt="RVS Collection Banner" width="800"/>
-</p>
-
 ## 🌟 About RVS
 
 RVS is more than just a clothing brand—it's a story of friendship, determination, and creative passion brought to life. Born from the collaborative vision of three software developers turned fashion innovators, RVS represents the perfect fusion of technology and style.
@@ -31,27 +27,9 @@ At RVS, we bring the precision of software development into fashion design:
 
 ## 👥 Meet Our Team
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="assets/goncalo.jpg" width="100px;" alt="Gonçalo Rio"/>
-        <br />
-        <sub><b>Gonçalo Rio</b></sub>
-      </td>
-      <td align="center">
-        <img src="assets/ana.jpg" width="100px;" alt="Ana Vale"/>
-        <br />
-        <sub><b>Ana Vale</b></sub>
-      </td>
-      <td align="center">
-        <img src="assets/licinio.jpg" width="100px;" alt="Licínio Sousa"/>
-        <br />
-        <sub><b>Licínio Sousa</b></sub>
-      </td>
-    </tr>
-  </table>
-</div>
+| [![Gonçalo Rio](assets/goncalo.jpg)](https://github.com/username1) | [![Ana Vale](assets/ana.jpg)](https://github.com/username2) | [![Licínio Sousa](assets/licinio.jpg)](https://github.com/username3) |
+|:---:|:---:|:---:|
+| **Gonçalo Rio** | **Ana Vale** | **Licínio Sousa** |
 
 ## 🚀 Features
 
@@ -64,9 +42,7 @@ At RVS, we bring the precision of software development into fashion design:
 
 ## 📸 Collection Preview
 
-<div align="center">
-  <img src="assets/collection-preview.gif" alt="RVS Collection" width="800"/>
-</div>
+![RVS Collection](assets/collection-preview.jpg)
 
 ## 🛠️ Technology Stack
 
@@ -76,6 +52,15 @@ At RVS, we bring the precision of software development into fashion design:
 - Analytics: Google Analytics
 - CI/CD: GitHub Actions
 
+## 📝 Contributing
+
+We welcome contributions from the community! If you'd like to contribute, please:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## 📫 Contact Us
 
@@ -84,8 +69,10 @@ At RVS, we bring the precision of software development into fashion design:
 - Instagram: [@rvs_fashion](https://instagram.com/rvs_fashion)
 - Twitter: [@RVS_Fashion](https://twitter.com/RVS_Fashion)
 
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
 ---
 
-<div align="center">
-  <sub>Built with ❤️ by the RVS Team</sub>
-</div>
+<p align="center">Built with ❤️ by the RVS Team</p>
