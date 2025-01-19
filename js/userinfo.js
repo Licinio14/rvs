@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	UserVerify()
   });
 
-function ChangeCartLabellogout(){
+function ChangeCartLabellogout(option){
     
 	let label = document.getElementById('cart-label-text')
 
@@ -64,10 +64,14 @@ function ChangeCartLabellogout(){
 		label.textContent = tamanho
 	}
 
-    const nome = document.getElementById('nome')
-    const email = document.getElementById('email')
+    if (option != 1){
+        const nome = document.getElementById('nome')
+        const email = document.getElementById('email')
 
-    nome.value = sessionStorage.getItem('name')
-    email.value = sessionStorage.getItem('email')
+        nome.value = sessionStorage.getItem('name')
+        email.value = sessionStorage.getItem('email')
+    }
+
+    
 
 }

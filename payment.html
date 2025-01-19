@@ -73,27 +73,64 @@
         <br>
 
         <!-- conteudo para login ou registo -->
-        <div class="col-10 div-form-login text-center">
+        <div class="div-form-login text-center">
             <div class="text-center form-login ">
+                <h2>Payment information</h2>
+                <br>
                 <form id="LoginForm" class="form-horizontal">
                     <div class="mb-3 form-group">
-                        <input type="text" class="form-control" id="InputName" placeholder="Name">
-                        <label class="text-start" id="LabelName" style="color: red;"></label>
+                        <input type="text" class="form-control" id="InputCardName" placeholder="Card Name">
+                        <label class="text-start" id="LabelCardName" style="color: red;"></label>
                     </div>
                     <div class="mb-3">
-                        <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Email">
-                        <label class="text-start" id="LabelEmail" style="color: red;"></label>
+                        <input type="text" class="form-control" id="InputAddress" placeholder="Address">
+                        <label class="text-start" id="LabelAddress" style="color: red;"></label>
                     </div>
                     <div class="mb-3">
-                        <input type="password" class="form-control" id="InputPassword" placeholder="Password">
-                        <label class="text-start" id="LabelPass" style="color: red;"></label>
+                        <input type="number" class="form-control" id="InputPhone" placeholder="Phone number">
+                        <label class="text-start" id="LabelPhone" style="color: red;"></label>
                     </div>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="Check1"  >
-                        <label class="form-check-label condiction-user-login" for="Check1">By logging in, I declare that I have read and accept the Terms and Conditions, and the use of my personal data as explained in the Privacy Policy.</label>
-                        <label class="text-start" id="Labelcheck" style="color: red;"></label>
+                    <div class="mb-3">
+                        <select id="optionPay" name="optionPay" class="selectPay">
+                            <option value="MbWay">MbWay</option>
+                            <option value="Card">Card</option>
+                        </select>
                     </div>
-                    <button type="submit" class="btn btn-primary" onclick="Login()">LOGIN</button>
+                    <br>
+                    <div class="mostrar-card" id="cardInfo">
+                        <div class="mb-3">
+                            <input type="number" class="form-control" id="InputCardN" placeholder="Card Number">
+                            <label class="text-start" id="LabelCardN" style="color: red;"></label>
+                        </div>
+                        <div class="mb-3">
+                            <div class="row">
+                                <div class="col">
+                                    <input type="number" class="form-control" id="InputCVV" placeholder="CVV">
+                                    <label class="text-start" id="LabelCVV" style="color: red;"></label>
+                                </div>
+                                <div class="col">
+                                    <input type="month" class="form-control" id="InputDT" placeholder="Card Expiry Date">
+                                    <label class="text-start" id="LabelDT" style="color: red;"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mostrar-mbWay" id="MBInfo">
+                        <img src="img/mbway.png" class="img-mbway" alt="qrcode for payment">
+                    </div>
+                    <br>
+                    <div class="mb-3">
+                        <div class="row">
+                            <div class="col">
+                                <h3>Total: </h3>
+                            </div>
+                            <div class="col">
+                                <h3 id="pay-price">0 €</h3>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button type="button" class="btn btn-primary" onclick="Pay()">Pay</button>
                     </form>
             </div>
 
@@ -126,6 +163,7 @@
     <script src="js/bd_js.js"></script>
     <script src="js/form_login.js"></script>
     <script src="js/userinfo.js"></script>
+    <script src="js/payment.js"></script>
 </body>
 
 </html>

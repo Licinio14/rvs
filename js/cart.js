@@ -154,14 +154,18 @@ function PreenCarrinho(){
 function Comprar(){
     let precoTotal = document.getElementById("precoTotal")
     precoTotal = precoTotal.textContent.replace(/\s|€/g, "")
-    alert("Comprado com sucesso! Gastou: " + precoTotal)
+    
 
-    carrinho = [];
-    sessionStorage.removeItem('carrinho')
-    divcart.innerHTML = ""
-    ChangeCartLabel()
+    if(precoTotal == "0.00"){
+        alert("O carrinho esta vazio!")
+    }else{
+        sessionStorage.setItem("total", precoTotal)
 
-    GetTotal()
+        window.location.href = "payment.html";
+    }
+
+    
+
 }
 
 window.onload = function() {
