@@ -1,12 +1,10 @@
-<div align="center">
-  <img src="assets/logo.png" alt="RVS Logo" width="200"/>
+# <p align="center">RVS - Style Meets Comfort</p>
 
-  # RVS - Style Meets Comfort
-  
-  [![Made with Love](https://img.shields.io/badge/Made%20with-Love-red.svg)](https://github.com/yourusername/RVS)
-  [![Founded](https://img.shields.io/badge/Founded-2025-blue.svg)](https://github.com/yourusername/RVS)
-  [![Contributors](https://img.shields.io/badge/Contributors-3-green.svg)](https://github.com/yourusername/RVS)
-</div>
+<p align="center">
+  <a href="https://github.com/yourusername/RVS"><img src="https://img.shields.io/badge/Made%20with-Love-red.svg" alt="Made with Love"></a>
+  <a href="https://github.com/yourusername/RVS"><img src="https://img.shields.io/badge/Founded-2025-blue.svg" alt="Founded"></a>
+  <a href="https://github.com/yourusername/RVS"><img src="https://img.shields.io/badge/Contributors-3-green.svg" alt="Contributors"></a>
+</p>
 
 ## 🌟 About RVS
 
@@ -27,9 +25,15 @@ At RVS, we bring the precision of software development into fashion design:
 
 ## 👥 Meet Our Team
 
-| [![Gonçalo Rio](assets/goncalo.jpg)](https://github.com/username1) | [![Ana Vale](assets/ana.jpg)](https://github.com/username2) | [![Licínio Sousa](assets/licinio.jpg)](https://github.com/username3) |
-|:---:|:---:|:---:|
-| **Gonçalo Rio** | **Ana Vale** | **Licínio Sousa** |
+<p align="center">
+  <img src="assets/Goncalo.png" width="250" alt="Gonçalo Rio">
+  <img src="assets/ana.png" width="250" alt="Ana Vale">
+  <img src="assets/licinio.png" width="250" alt="Licínio Sousa">
+</p>
+
+<p align="center">
+  <strong>Gonçalo Rio • Ana Vale • Licínio Sousa</strong>
+</p>
 
 ## 🚀 Features
 
@@ -40,38 +44,17 @@ At RVS, we bring the precision of software development into fashion design:
 - 🌍 Global shipping
 - 🤝 Community-driven approach
 
-## 📸 Collection Preview
+## 📸 Our Brand
 
-![RVS Collection](assets/collection-preview.jpg)
-
-## 🛠️ Technology Stack
-
-- Website: React.js, Next.js
-- E-commerce: Shopify
-- Payment Processing: Stripe
-- Analytics: Google Analytics
-- CI/CD: GitHub Actions
-
-## 📝 Contributing
-
-We welcome contributions from the community! If you'd like to contribute, please:
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+<p align="center">
+  <img src="https://raw.githubusercontent.com/yourusername/RVS/main/images/4.jpg" alt="RVS Logo">
+</p>
 
 ## 📫 Contact Us
 
-- Website: [www.rvs-fashion.com](https://www.rvs-fashion.com)
 - Email: contact@rvs-fashion.com
 - Instagram: [@rvs_fashion](https://instagram.com/rvs_fashion)
 - Twitter: [@RVS_Fashion](https://twitter.com/RVS_Fashion)
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ---
 
