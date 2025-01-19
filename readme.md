@@ -47,7 +47,7 @@ At RVS, we bring the precision of software development into fashion design:
 ## 📸 Our Brand
 
 <p align="center">
-  <img src="logo.png" alt="RVS Logo">
+  <img src="assets/logo.png" alt="RVS Logo">
 </p>
 
 ## 📫 Contact Us
