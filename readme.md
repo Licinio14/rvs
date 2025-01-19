@@ -26,7 +26,7 @@ At RVS, we bring the precision of software development into fashion design:
 ## 👥 Meet Our Team
 
 <p align="center">
-  <img src="assets/Goncalo.jpg" width="250" alt="Gonçalo Rio">
+  <img src="assets/goncalo.jpg" width="250" alt="Gonçalo Rio">
   <img src="assets/ana.jpg" width="250" alt="Ana Vale">
   <img src="assets/licinio.jpg" width="250" alt="Licínio Sousa">
 </p>
