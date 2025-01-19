@@ -1,0 +1,100 @@
+<div align="center">
+  <img src="assets/logo.png" alt="RVS Logo" width="200"/>
+
+  # RVS - Style Meets Comfort
+  
+  [![Made with Love](https://img.shields.io/badge/Made%20with-Love-red.svg)](https://github.com/yourusername/RVS)
+  [![Founded](https://img.shields.io/badge/Founded-2025-blue.svg)](https://github.com/yourusername/RVS)
+  [![Contributors](https://img.shields.io/badge/Contributors-3-green.svg)](https://github.com/yourusername/RVS)
+</div>
+
+<p align="center">
+  <img src="assets/banner.gif" alt="RVS Collection Banner" width="800"/>
+</p>
+
+## 🌟 About RVS
+
+RVS is more than just a clothing brand—it's a story of friendship, determination, and creative passion brought to life. Born from the collaborative vision of three software developers turned fashion innovators, RVS represents the perfect fusion of technology and style.
+
+### 💫 Our Story
+
+The name RVS emerges from the founders' surnames (Rio, Vale, Sousa), symbolizing the unique bond that sparked this creative venture. What began as a shared dream during a software development course has evolved into a dynamic fashion brand dedicated to self-expression and individual style.
+
+### 🎯 Our Vision
+
+At RVS, we bring the precision of software development into fashion design:
+- Modern and versatile collections
+- Sustainable manufacturing processes
+- Quality-focused production
+- Technology-inspired designs
+- Innovative approach to fashion
+
+## 👥 Meet Our Team
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="assets/goncalo.jpg" width="100px;" alt="Gonçalo Rio"/>
+        <br />
+        <sub><b>Gonçalo Rio</b></sub>
+      </td>
+      <td align="center">
+        <img src="assets/ana.jpg" width="100px;" alt="Ana Vale"/>
+        <br />
+        <sub><b>Ana Vale</b></sub>
+      </td>
+      <td align="center">
+        <img src="assets/licinio.jpg" width="100px;" alt="Licínio Sousa"/>
+        <br />
+        <sub><b>Licínio Sousa</b></sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
+## 🚀 Features
+
+- 👕 High-quality clothing collections
+- 🎨 Innovative designs
+- 💻 Tech-inspired aesthetics
+- ♻️ Sustainable materials
+- 🌍 Global shipping
+- 🤝 Community-driven approach
+
+## 📸 Collection Preview
+
+<div align="center">
+  <img src="assets/collection-preview.jpg" alt="RVS Collection" width="800"/>
+</div>
+
+## 🛠️ Technology Stack
+
+- Website: React.js, Next.js
+- E-commerce: Shopify
+- Payment Processing: Stripe
+- Analytics: Google Analytics
+- CI/CD: GitHub Actions
+
+## 📝 Contributing
+
+We welcome contributions from the community! If you'd like to contribute, please:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📫 Contact Us
+
+- Website: [www.rvs-fashion.com](https://www.rvs-fashion.com)
+- Email: contact@rvs-fashion.com
+- Instagram: [@rvs_fashion](https://instagram.com/rvs_fashion)
+- Twitter: [@RVS_Fashion](https://twitter.com/RVS_Fashion)
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ by the RVS Team</sub>
+</div>
