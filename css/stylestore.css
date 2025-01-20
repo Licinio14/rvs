@@ -201,7 +201,7 @@ body {
 
 .cart-label-text{
     position: fixed;
-    right: 15%; 
+    right: 20%; 
     top: 1%;
     color: rgb(0, 0, 0);
     font-weight: 900;
@@ -210,7 +210,7 @@ body {
 
 .cart-label-img{
     position: fixed;
-    right: 15%;
+    right: 20%;
     top: 0%;
     transform: translate(0px,15px);
 }
@@ -245,7 +245,7 @@ body {
 
 .user-name-icon-login{
     font-weight: 900;
-    font-size: clamp(1rem, 1.5vw, 1.5rem);
+    font-size: clamp(0.5rem, 1.5vw, 1.5rem);
     margin-top: auto;
     margin-bottom: auto;
     color: black;
@@ -261,7 +261,7 @@ body {
 @media (max-width: 500px) {
     .cart-label-text{
         position: fixed;
-        right: 35%; 
+        right: 45%; 
         top: 1%;
         color: rgb(0, 0, 0);
         font-weight: 900;
@@ -270,7 +270,7 @@ body {
     
     .cart-label-img{
         position: fixed;
-        right: 35%;
+        right: 45%;
         top: 0%;
         transform: translate(0px,15px);
     }
