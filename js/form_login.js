@@ -49,7 +49,7 @@ document.getElementById('LoginForm').addEventListener('submit', function(event) 
     if (isEmailValid(email)){
         labelEmail.textContent = ""
     }else {
-        labelEmail.textContent = "Tem de inserir um email valido!"
+        labelEmail.textContent = "Please enter a valid email address!"
         error++
     }
 
@@ -57,7 +57,7 @@ document.getElementById('LoginForm').addEventListener('submit', function(event) 
         labelPassword.textContent = "Enter a password!"
         error++
     }else if (pass.length < 8){
-        labelPassword.textContent = "The name must be longer than 8 characters!"
+        labelPassword.textContent = "The password must be longer than 8 characters!"
         error++
     }else {
         labelPassword.textContent = ""
