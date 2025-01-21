@@ -13,11 +13,11 @@
 
 RVS is more than just a clothing brand—it's a story of friendship, determination, and creative passion brought to life. Born from the collaborative vision of three software developers turned fashion innovators, RVS represents the perfect fusion of technology and style.
 
--Temos o login que pode usar qualquer nome(qualquer um), email(ex: a@a.com) e password(qualquer uma) para entrar e ficara a mustrar o nome enquanto navega pelo site;
--Se usar o login, carregando no nome vai para uma nova pagina que mostra a informação da conta e da para fazer logout;
--Pode adicionar produtos ao carrinho;
--Efectuando a compra no carrinho direciona para a pagina de pagamento onde so necessita de preencher os campos com informaçoes validas(caso aja erros mostra uma label a vermelho)
--Tanto os baners como os cards e o carrancel da pagina home, levam para paginas que nao se encontram dentro do menu(top products, sales, new arrivals)
+-Temos o login que pode usar qualquer nome(qualquer um), email(ex: a@a.com) e password(qualquer uma) para entrar e ficara a mustrar o nome enquanto navega pelo site;<br>
+-Se usar o login, carregando no nome vai para uma nova pagina que mostra a informação da conta e da para fazer logout;<br>
+-Pode adicionar produtos ao carrinho;<br>
+-Efectuando a compra no carrinho direciona para a pagina de pagamento onde so necessita de preencher os campos com informaçoes validas(caso aja erros mostra uma label a vermelho);<br>
+-Tanto os baners como os cards e o carrancel da pagina home, levam para paginas que nao se encontram dentro do menu(top products, sales, new arrivals);<br>
 -Preenchendo o formulario de contacto leva para a pagina de envio bem sucedido.
 
 ## 🌟 About RVS
