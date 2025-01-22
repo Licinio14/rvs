@@ -14,12 +14,12 @@
 - site: https://licinio14.github.io/rvs/
 - github: https://github.com/Licinio14/rvs
 
- - Ao efetuar o login, poderá registar qualquer nome, email (ex: a@a.com) e password, sendo que o nome ficará visível enquanto navega no website;<br>
- - Se efetuar o login, ao clicar no nome será reencaminhado para uma nova página que apresentará os dados registados na conta. Também é exequível fazer logout;<br>
- - É possível adicionar produtos ao carrinho;<br>
- - Depois de realizar uma compra na página do carrinho, o utilizador é direccionado para a página de pagamento onde é necessário preencher os campos com informações válidas. No caso de se verificarem erros, será apresentada uma label a vermelho;<br>
- - Os banners, os cards e o carrossel da página ‘Home’ reencaminham para as páginas que não se encontram no menu (Top Products, Sales, New Arrivals);<br>
- - Depois de preencher o formulário de contacto, o utilizador será reencaminhado para uma página que apresentará a mensagem de envio bem sucedido.<br>
+   - Ao efetuar o login, poderá registar qualquer nome, email (ex: a@a.com) e password, sendo que o nome ficará visível enquanto navega no website;<br>
+   - Se efetuar o login, ao clicar no nome será reencaminhado para uma nova página que apresentará os dados registados na conta. Também é exequível fazer logout;<br>
+   - É possível adicionar produtos ao carrinho;<br>
+   - Depois de realizar uma compra na página do carrinho, o utilizador é direccionado para a página de pagamento onde é necessário preencher os campos com informações válidas. No caso de se verificarem erros, será apresentada uma label a vermelho;<br>
+   - Os banners, os cards e o carrossel da página ‘Home’ reencaminham para as páginas que não se encontram no menu (Top Products, Sales, New Arrivals);<br>
+   - Depois de preencher o formulário de contacto, o utilizador será reencaminhado para uma página que apresentará a mensagem de envio bem sucedido.<br>
 
 ## 🌟 About RVS
 
