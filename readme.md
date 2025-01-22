@@ -9,11 +9,9 @@
   <a href="https://github.com/yourusername/RVS"><img src="https://img.shields.io/badge/Contributors-3-green.svg" alt="Contributors"></a>
 </p>
 
-## Só é necessário abrir o website e testar:
-
 - site: https://licinio14.github.io/rvs/
 - github: https://github.com/Licinio14/rvs
-
+  
    - Ao efetuar o login, poderá registar qualquer nome, email (ex: a@a.com) e password, sendo que o nome ficará visível enquanto navega no website;<br>
    - Se efetuar o login, ao clicar no nome será reencaminhado para uma nova página que apresentará os dados registados na conta. Também é exequível fazer logout;<br>
    - É possível adicionar produtos ao carrinho;<br>
