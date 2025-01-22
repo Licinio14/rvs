@@ -1,7 +1,7 @@
 <h1 align="center"><a href="https://licinio14.github.io/rvs">Open the site!!!</a><h1>
 
 
-# <p align="center">RVS - Style Meets Comfort</p>
+# <p align="center">RVS - Clothing </p>
 
 <p align="center">
   <a href="https://github.com/yourusername/RVS"><img src="https://img.shields.io/badge/Made%20with-Love-red.svg" alt="Made with Love"></a>
