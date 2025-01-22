@@ -68,7 +68,7 @@ At RVS, we bring the precision of software development into fashion design:
 - Email: contact@rvs-fashion.com
 - Facebook: [@rvs_fashion](https://facebook.com/rvs_fashion)
 - Instagram: [@rvs_fashion](https://instagram.com/rvs_fashion)
-- TikTok: [@RVS_Fashion](https://tiktok.com/rvs_fashion)
+- TikTok: [@rvs_fashion](https://tiktok.com/rvs_fashion)
 
 ---
 
