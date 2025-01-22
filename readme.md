@@ -9,16 +9,17 @@
   <a href="https://github.com/yourusername/RVS"><img src="https://img.shields.io/badge/Contributors-3-green.svg" alt="Contributors"></a>
 </p>
 
-## Algumas coisas que dao para fazer no site:
+## Só é necessário abrir o website e testar:
 
-RVS is more than just a clothing brand—it's a story of friendship, determination, and creative passion brought to life. Born from the collaborative vision of three software developers turned fashion innovators, RVS represents the perfect fusion of technology and style.
+- site: https://licinio14.github.io/rvs/
+- github: https://github.com/Licinio14/rvs
 
--Temos o login que pode usar qualquer nome(qualquer um), email(ex: a@a.com) e password(qualquer uma) para entrar e ficara a mustrar o nome enquanto navega pelo site;<br>
--Se usar o login, carregando no nome vai para uma nova pagina que mostra a informação da conta e da para fazer logout;<br>
--Pode adicionar produtos ao carrinho;<br>
--Efectuando a compra no carrinho direciona para a pagina de pagamento onde so necessita de preencher os campos com informaçoes validas(caso aja erros mostra uma label a vermelho);<br>
--Tanto os baners como os cards e o carrancel da pagina home, levam para paginas que nao se encontram dentro do menu(top products, sales, new arrivals);<br>
--Preenchendo o formulario de contacto leva para a pagina de envio bem sucedido.
+ - Ao efetuar o login, poderá registar qualquer nome, email (ex: a@a.com) e password, sendo que o nome ficará visível enquanto navega no website;<br>
+ - Se efetuar o login, ao clicar no nome será reencaminhado para uma nova página que apresentará os dados registados na conta. Também é exequível fazer logout;<br>
+ - É possível adicionar produtos ao carrinho;<br>
+ - Depois de realizar uma compra na página do carrinho, o utilizador é direccionado para a página de pagamento onde é necessário preencher os campos com informações válidas. No caso de se verificarem erros, será apresentada uma label a vermelho;<br>
+ - Os banners, os cards e o carrossel da página ‘Home’ reencaminham para as páginas que não se encontram no menu (Top Products, Sales, New Arrivals);<br>
+ - Depois de preencher o formulário de contacto, o utilizador será reencaminhado para uma página que apresentará a mensagem de envio bem sucedido.<br>
 
 ## 🌟 About RVS
 
